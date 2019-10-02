@@ -57,6 +57,14 @@ ggplot(data) +
   geom_point(aes(x = edad, y = ano_de_carrera))
 
 ggplot(data) +
+  geom_point(aes(x = edad, y = ano_de_carrera), alpha = 0.5)
+
+ggplot(data) +
+  geom_point(aes(x = edad, y = ano_de_carrera),
+             position = position_jitter(width = 0.1, height = 0.1))
+
+
+ggplot(data) +
   geom_point(aes(x = edad, y = ano_de_carrera,
                  color = que_crees_que_aprenderas_aca))
 
@@ -76,3 +84,42 @@ df_carga
 
 ggplot(df_carga) +
   geom_col(aes(x = ramo_que_mas_me_carga_en_la_vida, y = n))
+
+
+# hola --------------------------------------------------------------------
+library(ggrepel)
+
+ggplot(data) +
+  geom_point(
+    aes(x = edad, y = ano_de_carrera, color = que_crees_que_aprenderas_aca),
+    size = 3
+    ) +
+  scale_color_viridis_d() +
+  geom_text_repel(
+    aes(x = edad, y = ano_de_carrera, label = email_address),
+    color = "gray20", size = 3, force = 10
+    ) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+
+library(plotly)
+
+plotly::ggplotly()
+# hola --------------------------------------------------------------------
+df_hotencoding <- model.matrix(  ~ 0 +
+    ramo_que_mas_me_carga_en_la_vida +
+    ramo_que_mas_amo_en_la_vida +
+    edad + 
+    ano_de_carrera, data = data) %>% 
+  as_tibble()
+
+
+df_hotencoding <- df_hotencoding %>% 
+  rename_all(stringi::stri_trans_general, id = "Latin-ASCII") %>% 
+  rename_all(str_replace_all, " ", "_") %>% 
+  rename_all(str_remove_all, "\\?|\\!|\\,") %>% 
+  rename_all(str_to_lower)
+
+glimpse(df_hotencoding)
+
+  
