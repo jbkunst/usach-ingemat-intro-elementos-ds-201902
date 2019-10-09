@@ -17,3 +17,4 @@ timestamp	email_address	quiero_programar	ano_de_carrera	fecha_de_nacimiento	ramo
 9/5/2019 19:27:49	dante.saenz@usach.cl	Sí! Efectivamente.	5	6/23/1994	OTRA	OTRA	4	1	1	R	1994-06-23	25
 9/5/2019 19:29:42	brayan.reyes@usach.cl	Sí! Efectivamente.	5	9/5/1996	Cálculo, Análisis Real	Procesos estocásticos, estadística y probabilidad	6	3	8	R	1996-09-05	23
 9/5/2019 19:29:51	fabrizzio.verdugo@usach.cl	Sí! Efectivamente.	5	1/13/1997	Algebra (de todos los sabores: Abstracta, Inabstracta, lo que ud saben)	OTRA	10	3	2	R	1997-01-13	22
+10/9/2019 19:10:24	manuel.munozrQ@usach.cl	Sí! Efectivamente.	8	12/15/1988	OTRA	OTRA	4	1	1	R	1988-12-15	31

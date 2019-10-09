@@ -151,3 +151,4 @@ library(ape)
 plot(as.phylo(hc), type = "fan")
 
 
+

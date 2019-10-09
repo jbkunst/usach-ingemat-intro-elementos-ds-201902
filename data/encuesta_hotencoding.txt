@@ -17,3 +17,4 @@ ramo_que_mas_me_carga_en_la_vidaalgebra_(de_todos_los_sabores:_abstracta_inabstr
 0	0	1	0	0	1	0	1	1	5
 0	0	0	1	1	0	0	3	8	5
 0	0	1	0	0	0	0	3	2	5
+0	0	1	0	0	1	0	1	1	8
