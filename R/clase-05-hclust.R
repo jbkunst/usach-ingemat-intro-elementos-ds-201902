@@ -151,4 +151,7 @@ library(ape)
 plot(as.phylo(hc), type = "fan")
 
 
+write_tsv(data, "data/encuesta.txt")
+write_tsv(df_hotencoding, "data/encuesta_hotencoding.txt")
+
 
