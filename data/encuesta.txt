@@ -1,0 +1,19 @@
+timestamp	email_address	quiero_programar	ano_de_carrera	fecha_de_nacimiento	ramo_que_mas_amo_en_la_vida	ramo_que_mas_me_carga_en_la_vida	cuantos_amigos_cercanos_tiene_en_la_universidad	cuantos_amigos_cercanos_tiene_en_este_curso	cuantos_enemigos_te_recomendaron_este_curso	que_crees_que_aprenderas_aca	fecha_nac	edad
+8/29/2019 12:02:31	jbkunst@gmail.com	Sí! Efectivamente.	10	10/2/1985	Procesos estocásticos, estadística y probabilidad	Algebra (de todos los sabores: Abstracta, Inabstracta, lo que ud saben)	1	1	10	Excel	1985-10-02	34
+8/29/2019 12:02:32	jaime.tdm@gmail.com	Sí! Efectivamente.	7	4/12/1994	OTRA	Algebra (de todos los sabores: Abstracta, Inabstracta, lo que ud saben)	3	2	3	R	1994-04-12	25
+8/29/2019 12:06:46	isi.aylinne@gmail.com	Sí! Efectivamente.	4	12/20/1997	Procesos estocásticos, estadística y probabilidad	Algebra (de todos los sabores: Abstracta, Inabstracta, lo que ud saben)	5	2	1	R	1997-12-20	22
+8/29/2019 12:06:53	catherine.orellana@usach.cl	Sí! Efectivamente.	5	8/1/1996	Procesos estocásticos, estadística y probabilidad	OTRA	5	3	1	R	1996-08-01	23
+8/29/2019 12:07:34	luis.gonzalez.d@usach.cl	Sí! Efectivamente.	4	2/1/1997	OTRA	OTRA	8	3	1	R	1997-02-01	22
+8/29/2019 12:08:02	sofia.roca@usach.cl	Sí! Efectivamente.	4	3/7/1997	OTRA	Procesos estocásticos, estadística y probabilidad	8	2	1	R	1997-03-07	22
+8/29/2019 12:10:13	jennifer.rojas.g@usach.cl	Sí! Efectivamente.	5	3/18/2019	Procesos estocásticos, estadística y probabilidad	Algebra (de todos los sabores: Abstracta, Inabstracta, lo que ud saben)	3	3	1	R	2019-03-18	0
+8/29/2019 12:11:40	jean.lorca.s@gmail.com	Sí! Efectivamente.	6	2/22/1995	Procesos estocásticos, estadística y probabilidad	Algebra (de todos los sabores: Abstracta, Inabstracta, lo que ud saben)	3	3	6	R	1995-02-22	24
+8/29/2019 12:13:33	daniela.arriagada@usach.cl	Sí! Efectivamente.	6	12/4/1993	Procesos estocásticos, estadística y probabilidad	Algebra (de todos los sabores: Abstracta, Inabstracta, lo que ud saben)	4	1	1	R	1993-12-04	26
+8/29/2019 14:04:44	eduardo.jung@usach.cl	Sí! Efectivamente.	5	10/5/2019	Cálculo, Análisis Real	Procesos estocásticos, estadística y probabilidad	4	1	1	R	2019-10-05	0
+8/29/2019 17:10:20	alfonso.pereira.m@usach.cl	Sí! Efectivamente.	6	4/1/1995	Cálculo, Análisis Real	OTRA	3	1	5	R	1995-04-01	24
+8/29/2019 17:30:37	navarrete.ale16@gmail.com	Sí! Efectivamente.	6	1/26/1996	Cálculo, Análisis Real	Algebra (de todos los sabores: Abstracta, Inabstracta, lo que ud saben)	5	3	1	Excel	1996-01-26	23
+9/5/2019 19:26:45	luis.moyas@usach.cl	Sí! Efectivamente.	8	10/22/1990	OTRA	Algebra (de todos los sabores: Abstracta, Inabstracta, lo que ud saben)	4	1	1	R	1990-10-22	29
+9/5/2019 19:27:11	camila.molina.b@usach.cl	Sí! Efectivamente.	6	7/9/1995	Cálculo, Análisis Real	Procesos estocásticos, estadística y probabilidad	4	2	10	R	1995-07-09	24
+9/5/2019 19:27:14	francisca.monreal@usach.cl	Sí! Efectivamente.	6	4/6/1994	OTRA	Cálculo, Análisis Real	5	3	1	R	1994-04-06	25
+9/5/2019 19:27:49	dante.saenz@usach.cl	Sí! Efectivamente.	5	6/23/1994	OTRA	OTRA	4	1	1	R	1994-06-23	25
+9/5/2019 19:29:42	brayan.reyes@usach.cl	Sí! Efectivamente.	5	9/5/1996	Cálculo, Análisis Real	Procesos estocásticos, estadística y probabilidad	6	3	8	R	1996-09-05	23
+9/5/2019 19:29:51	fabrizzio.verdugo@usach.cl	Sí! Efectivamente.	5	1/13/1997	Algebra (de todos los sabores: Abstracta, Inabstracta, lo que ud saben)	OTRA	10	3	2	R	1997-01-13	22
