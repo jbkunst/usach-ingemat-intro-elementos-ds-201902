@@ -25,20 +25,21 @@ ggplot(dfg) +
 
 
 # ahora umap --------------------------------------------------------------
-library(smallvis)
+# remotes::install_github("jlmelville/uwot")
+# https://github.com/jlmelville/uwot#performance
+library(uwot)
+library(ggforce)
 
-umap_iris <- smallvis(
-  data %>% select(-label),
-  method = "umap"
-  )
+mnist_umap <- umap(data %>% select(-label), n_threads = 10, approx_pow = TRUE, pca = 50)
 
-dumap <- umap(data %>% select(-label))
-
-# pasar a dataframe 
-dumap2 <- dumap$layout %>% 
-  as_data_frame() %>% 
-  as_tibble()
+mnist_umap <- mnist_umap %>% 
+  as_tibble() %>% 
+  bind_cols(data %>% select(label)) %>% 
+  mutate(label = as.character(label))
 
 
-ggplot(dumap2) +
-  geom_point(aes(x = V1, y = V2))
+ggplot(mnist_umap, aes(x = V1, y = V2)) +
+  geom_point(aes(color = label), alpha = 0.6, size = .8) +
+  geom_mark_ellipse(aes(fill = label, label = label),  0.001) +
+  scale_color_viridis_d() +
+  theme_minimal()
